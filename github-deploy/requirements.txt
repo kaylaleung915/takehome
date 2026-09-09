@@ -1,0 +1,7 @@
+fastapi[standard]==0.115.*
+anthropic>=0.40
+pyyaml
+pydantic>=2
+numpy
+pandas
+scipy

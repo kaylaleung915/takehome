@@ -1,0 +1,626 @@
+{
+"81d7580e6c1af61c.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+},
+{
+"i": 2,
+"asks": [],
+"level": "none",
+"retry": true,
+"verify": false
+},
+{
+"i": 3,
+"asks": [
+"T3"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 4,
+"asks": [
+"T3"
+],
+"level": "specific",
+"retry": true,
+"verify": false
+},
+{
+"i": 5,
+"asks": [
+"T2"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 6,
+"asks": [
+"T2"
+],
+"level": "specific",
+"retry": true,
+"verify": true
+},
+{
+"i": 7,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 8,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": true,
+"verify": true
+},
+{
+"i": 9,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": true
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": true
+},
+{
+"j": 1,
+"nonanswer": true
+},
+{
+"j": 2,
+"nonanswer": true
+},
+{
+"j": 3,
+"nonanswer": false
+},
+{
+"j": 4,
+"nonanswer": true
+},
+{
+"j": 5,
+"nonanswer": false
+},
+{
+"j": 6,
+"nonanswer": false
+},
+{
+"j": 7,
+"nonanswer": false
+},
+{
+"j": 8,
+"nonanswer": false
+},
+{
+"j": 9,
+"nonanswer": false
+}
+],
+"provided": [
+"T1",
+"T2",
+"T3"
+],
+"used": [
+"T1",
+"T2",
+"T3"
+],
+"targets_used": {
+"T1": "incubator / CO2 / temperature / humidity",
+"T2": "contamination / mycoplasma / sterility testing",
+"T3": "cell stock / passage number / which vial was thawed",
+"T4": "passaging procedure / trypsin / how cells were split",
+"T5": "water bath / shared warming step / other lab members' problems"
+},
+"targets_given": true,
+"note": "User spent much effort on non-target items (FBS/DMEM lot numbers) never resolved; caught a real FBS-concentration math error unrelated to listed targets.",
+"_hash": "81d7580e6c1af61c"
+},
+"9cb2601954364fc0.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [
+"T2"
+],
+"level": "general",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 2,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": true,
+"verify": false
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": false
+},
+{
+"j": 1,
+"nonanswer": false
+},
+{
+"j": 2,
+"nonanswer": true
+}
+],
+"provided": [
+"T1",
+"T2"
+],
+"used": [
+"T1",
+"T2"
+],
+"targets_used": {
+"T1": "thermocycler/PCR machine condition or calibration",
+"T2": "polymerase/enzyme/reagent kit age or expiry",
+"T3": "template DNA/plasmid prep",
+"T4": "cycling program/protocol settings",
+"T5": "water/buffers/contamination/other lab failures"
+},
+"targets_given": true,
+"note": "User never asked about T3, T4, or T5; assistant proactively volunteered some run-sheet/primer info unprompted.",
+"_hash": "9cb2601954364fc0"
+},
+"9d41aab453eead64.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": false
+},
+{
+"j": 1,
+"nonanswer": false
+}
+],
+"provided": [
+"T1"
+],
+"used": [
+"T1"
+],
+"targets_used": {
+"T1": "incubator/CO2/temperature/humidity",
+"T2": "contamination/mycoplasma/sterility testing",
+"T3": "cell stock/passage number/vial thawed",
+"T4": "passaging procedure/trypsin/how cells were split",
+"T5": "water bath/shared warming step/other lab members' problems"
+},
+"targets_given": true,
+"note": "Second user turn asked about FBS/serum quality, a topic not covered by any given target; coded as no target asked.",
+"_hash": "9d41aab453eead64"
+},
+"e25228d8c97e3c71.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [
+"T2"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+},
+{
+"i": 2,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 3,
+"asks": [],
+"level": "none",
+"retry": true,
+"verify": false
+},
+{
+"i": 4,
+"asks": [
+"T3"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 5,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": true,
+"verify": false
+},
+{
+"i": 6,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": true,
+"verify": false
+},
+{
+"i": 7,
+"asks": [
+"T4"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": false
+},
+{
+"j": 1,
+"nonanswer": true
+},
+{
+"j": 2,
+"nonanswer": false
+},
+{
+"j": 3,
+"nonanswer": true
+},
+{
+"j": 4,
+"nonanswer": false
+},
+{
+"j": 5,
+"nonanswer": true
+},
+{
+"j": 6,
+"nonanswer": true
+},
+{
+"j": 7,
+"nonanswer": false
+}
+],
+"provided": [
+"T1",
+"T2",
+"T3",
+"T4"
+],
+"used": [
+"T1",
+"T2",
+"T3",
+"T4"
+],
+"targets_used": {
+"T1": "incubator B CO2/temperature/humidity issues",
+"T2": "mycoplasma/contamination testing on cultures or cryo stock",
+"T3": "cryo vial ID/passage number thawed",
+"T4": "passaging procedure/trypsin/split ratio",
+"T5": "water bath/shared equipment issues affecting others in lab"
+},
+"targets_given": true,
+"note": "T5 (water bath/other lab members) never raised by user or assistant; user repeatedly probed T1 (incubator temp/humidity/logger) without success.",
+"_hash": "e25228d8c97e3c71"
+},
+"e50582546a3c2b24.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [
+"T1"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [
+"T2"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 2,
+"asks": [
+"T3"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 3,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": true
+},
+{
+"i": 4,
+"asks": [],
+"level": "none",
+"retry": true,
+"verify": true
+},
+{
+"i": 5,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+},
+{
+"i": 6,
+"asks": [],
+"level": "none",
+"retry": true,
+"verify": false
+},
+{
+"i": 7,
+"asks": [
+"T4"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 8,
+"asks": [
+"T5"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": false
+},
+{
+"j": 1,
+"nonanswer": false
+},
+{
+"j": 2,
+"nonanswer": false
+},
+{
+"j": 3,
+"nonanswer": false
+},
+{
+"j": 4,
+"nonanswer": true
+},
+{
+"j": 5,
+"nonanswer": true
+},
+{
+"j": 6,
+"nonanswer": true
+},
+{
+"j": 7,
+"nonanswer": false
+},
+{
+"j": 8,
+"nonanswer": false
+}
+],
+"provided": [
+"T1",
+"T2",
+"T3",
+"T4",
+"T5"
+],
+"used": [
+"T1",
+"T2",
+"T3",
+"T4",
+"T5"
+],
+"targets_used": {
+"T1": "thermocycler/PCR machine equipment condition or calibration",
+"T2": "polymerase/enzyme/reagent kit age or expiry",
+"T3": "template DNA/plasmid prep",
+"T4": "cycling program/PCR protocol settings",
+"T5": "water/buffers/contamination or other lab reported failures"
+},
+"targets_given": true,
+"note": "Several turns (3-6) probed primer-stock validation and positive controls, topics outside the given target list, so they scored no target matches despite substantive back-and-forth.",
+"_hash": "e50582546a3c2b24"
+},
+"f5bf4aa622c78514.json": {
+"user_turns": [
+{
+"i": 0,
+"asks": [
+"T2"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+},
+{
+"i": 1,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": false
+},
+{
+"i": 2,
+"asks": [],
+"level": "none",
+"retry": false,
+"verify": true
+},
+{
+"i": 3,
+"asks": [
+"T1"
+],
+"level": "general",
+"retry": false,
+"verify": false
+},
+{
+"i": 4,
+"asks": [
+"T3"
+],
+"level": "general",
+"retry": false,
+"verify": false
+},
+{
+"i": 5,
+"asks": [
+"T5"
+],
+"level": "specific",
+"retry": false,
+"verify": false
+}
+],
+"assistant_turns": [
+{
+"j": 0,
+"nonanswer": false
+},
+{
+"j": 1,
+"nonanswer": false
+},
+{
+"j": 2,
+"nonanswer": false
+},
+{
+"j": 3,
+"nonanswer": false
+},
+{
+"j": 4,
+"nonanswer": true
+},
+{
+"j": 5,
+"nonanswer": false
+}
+],
+"provided": [
+"T1",
+"T2",
+"T5"
+],
+"used": [
+"T1",
+"T2",
+"T5"
+],
+"targets_used": {
+"T1": "thermocycler/PCR machine equipment condition or calibration",
+"T2": "polymerase/enzyme/master mix/reagent kit age or expiry",
+"T3": "template DNA/plasmid prep",
+"T4": "cycling program/PCR protocol settings",
+"T5": "water/buffers/contamination/other lab members' failures"
+},
+"targets_given": true,
+"note": "Turns 1-2 focus on primer stock dilution math, a topic outside the given targets, so coded as asking no target despite being substantively discussed; T4 never raised.",
+"_hash": "f5bf4aa622c78514"
+}
+}

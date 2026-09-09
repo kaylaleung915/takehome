@@ -1,0 +1,46 @@
+{
+ "est:cell_culture": [
+  {
+   "topic": "the incubator / CO2 / temperature / humidity",
+   "detail": "Equipment log: incubator B read 9.6% CO2 at the weekly Fyrite check on the 3rd against a 5% setpoint; a recalibration ticket is open and a 'use incubator A' sign was put up on the 4th."
+  },
+  {
+   "topic": "contamination / mycoplasma / sterility testing",
+   "detail": "Mycoplasma PCR screen run on the 1st: the HEK293 working stock from bench 2 tested positive; the result sheet is pinned on the cold-room door and was not emailed round."
+  },
+  {
+   "topic": "the cell stock / passage number / which vial was thawed",
+   "detail": "Cryo log: the vial thawed on the 20th was passage 41 (lab guideline on the dewar lid: discard HEK293 above P30); P9 vials are in dewar rack 3, box C."
+  },
+  {
+   "topic": "the passaging procedure / trypsin / how the cells were split",
+   "detail": "Culture log: trypsin exposure is recorded as 20–25 min on the last three passages (SOP: 3–5 min) with a note 'timer missing, got distracted'; trypsin lot T-221 in use expired five weeks ago, in-date lot T-230 is in fridge 2."
+  },
+  {
+   "topic": "the water bath / shared warming step / whether anyone else in the lab has lost cultures or reported problems",
+   "detail": "Lab chat: two other people lost cultures this week; all three of you warm media in water bath 2, which was found at 51 °C with visible growth in the water on the 4th — it has been drained and bath 1 is to be used."
+  }
+ ],
+ "est:pcr_lab": [
+  {
+   "topic": "the thermocycler / PCR machine / equipment condition or calibration",
+   "detail": "Equipment log: thermocycler #2 failed its block-uniformity check on the 28th — block measured about 4 °C above setpoint; a service ticket is open and a 'use #1 if possible' sticky note was added."
+  },
+  {
+   "topic": "the polymerase / enzyme / master mix / reagent kit age or expiry",
+   "detail": "Inventory: the Taq polymerase tube in the green box expired 14 months ago; an unopened in-date tube is in freezer B, shelf 2."
+  },
+  {
+   "topic": "the template DNA / plasmid prep",
+   "detail": "Sample log: the template plasmid prep read 8 ng/µL on the Nanodrop last week (preps here are normally ~100 ng/µL) and has 9 logged freeze-thaw cycles."
+  },
+  {
+   "topic": "the cycling program / PCR protocol settings",
+   "detail": "Saved program 'INSERT12' on thermocycler #2 has a 20-second extension step; it was edited on the 25th (previously 75 s). A 1.2 kb product with Taq needs roughly 70+ s."
+  },
+  {
+   "topic": "water / buffers / contamination / whether anyone else in the lab has had failures or reported problems",
+   "detail": "Lab chat: two other people reported failed PCRs this week and both used shared nuclease-free water aliquot W-7; unopened aliquots are in drawer 4."
+  }
+ ]
+}
