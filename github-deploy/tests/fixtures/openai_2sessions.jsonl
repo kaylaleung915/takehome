@@ -1,2 +1,0 @@
-{"user_id": "frank", "messages": [{"role": "system", "content": "be helpful"}, {"role": "user", "content": "What is a sensible tyre pressure for a city bike with 40 mm tyres and an 80 kg rider?"}, {"role": "assistant", "content": "Roughly 3 to 4 bar (45-60 psi); start near 3.5 bar and adjust for comfort."}]}
-{"user_id": "frank", "messages": [{"role": "user", "content": [{"type": "text", "text": "And for 28 mm road tyres, same rider?"}]}, {"role": "assistant", "content": "About 5.5 to 6.5 bar (80-95 psi)."}]}

@@ -1,5 +1,0 @@
-participant_id,session_idx,role,content
-erin,0,user,"How long should I rest bread dough after kneading, and at what room temperature?"
-erin,0,assistant,"Typically 1 to 2 hours at 21-24 C for the first rise, until roughly doubled."
-erin,1,user,"You said 1 to 2 hours; does that change if my kitchen is 18 C?"
-erin,1,assistant,"Yes, expect closer to 2.5 to 3 hours at 18 C; the dough, not the clock, is the guide."

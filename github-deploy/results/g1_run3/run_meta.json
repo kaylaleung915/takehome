@@ -1,9 +1,0 @@
-[
- {
-  "wall_s_this_process": 2113.7,
-  "llm_calls_this_process": 426,
-  "llm_calls_sum_over_run_records": 426,
-  "wall_s_sum_over_run_records": 9202.7,
-  "ts": "2026-09-08 10:46:58"
- }
-]
