@@ -1,0 +1,1189 @@
+{
+ "STRONG": {
+  "cell_culture__STRONG__s1": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 4,
+   "reask_done": 4,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C3",
+    "CFIX",
+    "C7",
+    "C6",
+    "C5",
+    "C4"
+   ],
+   "detail": [
+    {
+     "category": "Serum lot, quality, storage history",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      4,
+      7,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Incubator temperature, gas, humidity control",
+     "first_ask": 2,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Culture medium lot and storage",
+     "first_ask": 3,
+     "unanswered_after_first": true,
+     "later_asks": [
+      5,
+      7,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "TrypLE/trypsin timing and execution",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Cryostock passage number and viability",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Culture vessel lot and consumables",
+     "first_ask": 6,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Centrifuge maintenance and shared equipment",
+     "first_ask": 6,
+     "unanswered_after_first": true,
+     "later_asks": [
+      8,
+      9,
+      10
+     ],
+     "re_asked": true
+    }
+   ]
+  },
+  "cell_culture__STRONG__s2": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 3,
+   "reask_done": 3,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1,
+    6
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm+patch",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C3",
+    "CFIX",
+    "C4",
+    "C5",
+    "C7",
+    "C6"
+   ],
+   "detail": [
+    {
+     "category": "Incubator CO2 and temperature control",
+     "first_ask": 1,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Media and fetal bovine serum batch",
+     "first_ask": 2,
+     "unanswered_after_first": true,
+     "later_asks": [
+      4,
+      6
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Cryostock viability and mycoplasma status",
+     "first_ask": 3,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Trypsin enzyme activity and storage",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Actual protocol steps and settings recorded",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Shared equipment function and maintenance",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Culture storage temperature and timing",
+     "first_ask": 6,
+     "unanswered_after_first": true,
+     "later_asks": [
+      8,
+      9,
+      10
+     ],
+     "re_asked": true
+    }
+   ]
+  },
+  "pcr_lab__STRONG__s1": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 4,
+   "reask_done": 4,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C3",
+    "C5",
+    "CFIX",
+    "C4",
+    "C7",
+    "C6"
+   ],
+   "detail": [
+    {
+     "category": "Thermocycler calibration and performance",
+     "first_ask": 1,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "DNA template quality and quantity",
+     "first_ask": 2,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Master mix and buffer reagent condition",
+     "first_ask": 3,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Primer stock synthesis and quality",
+     "first_ask": 4,
+     "unanswered_after_first": true,
+     "later_asks": [
+      6,
+      8,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "PCR protocol parameters and settings",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Freezer and reagent storage environment",
+     "first_ask": 5,
+     "unanswered_after_first": true,
+     "later_asks": [
+      7,
+      8,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Shared equipment and workspace contamination",
+     "first_ask": 5,
+     "unanswered_after_first": true,
+     "later_asks": [
+      7,
+      9,
+      10
+     ],
+     "re_asked": true
+    }
+   ]
+  },
+  "pcr_lab__STRONG__s2": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 3,
+   "reask_done": 3,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    10
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C4",
+    "C5",
+    "CFIX",
+    "C3",
+    "C7",
+    "C6"
+   ],
+   "detail": [
+    {
+     "category": "Master Mix & Taq Polymerase",
+     "first_ask": 1,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Template DNA Quality",
+     "first_ask": 2,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Thermocycler Instrument Status",
+     "first_ask": 3,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "dNTP Stock Condition",
+     "first_ask": 4,
+     "unanswered_after_first": true,
+     "later_asks": [
+      6,
+      7,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Primer Stock Properties",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "PCR Program Parameters & Protocol",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Lab Environment & Reagent Storage",
+     "first_ask": 5,
+     "unanswered_after_first": true,
+     "later_asks": [
+      7,
+      8,
+      10
+     ],
+     "re_asked": true
+    }
+   ]
+  },
+  "western_blot__STRONG__s1": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 3,
+   "reask_done": 3,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C4",
+    "C6",
+    "CFIX",
+    "C5",
+    "C7",
+    "C3"
+   ],
+   "detail": [
+    {
+     "category": "Western blot protocol execution",
+     "first_ask": 1,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Anti-FLAG primary antibody stock",
+     "first_ask": 2,
+     "unanswered_after_first": true,
+     "later_asks": [
+      4,
+      6,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Input protein sample state",
+     "first_ask": 3,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Secondary antibody & HRP substrate",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Membrane imager settings & calibration",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Buffers & working reagent solutions",
+     "first_ask": 5,
+     "unanswered_after_first": true,
+     "later_asks": [
+      7
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Lab environment & storage conditions",
+     "first_ask": 6,
+     "unanswered_after_first": false,
+     "later_asks": []
+    }
+   ]
+  },
+  "western_blot__STRONG__s2": {
+   "n_categories": 8,
+   "n_categories_asked_at_least_once": 8,
+   "reask_needed": 3,
+   "reask_done": 3,
+   "reasked_every_unanswered": true,
+   "other_reports_asks": [
+    1,
+    3
+   ],
+   "other_reports_asks_ge2": true,
+   "judge_C7_level_on_those_turns": {
+    "1": "specific",
+    "3": "specific"
+   },
+   "checker_flagged_turns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "challenge_turns": [
+    2
+   ],
+   "challenged_after_checker_flag": true,
+   "judge_challenges_error_on_challenge_turns": {
+    "2": true
+   },
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm+patch",
+    "llm",
+    "llm+patch",
+    "llm",
+    "llm"
+   ],
+   "n_turns": 10,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 1.0,
+    "refusal_recovery": 1.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 1.0
+   },
+   "unlocked": [
+    "C1",
+    "C2",
+    "C4",
+    "C6",
+    "CFIX",
+    "C5",
+    "C7",
+    "C3"
+   ],
+   "detail": [
+    {
+     "category": "Primary Antibody Stock Quality",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      4,
+      6,
+      10
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "reports from other people in the lab: lab chat, notes or messages from other users, anyone else having the same problem or trouble with anything shared",
+     "first_ask": 1,
+     "unanswered_after_first": true,
+     "later_asks": [
+      3
+     ],
+     "re_asked": true
+    },
+    {
+     "category": "Secondary Antibody and Detection Reagent",
+     "first_ask": 2,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Protein Sample Preparation and Input",
+     "first_ask": 3,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Imaging Equipment Calibration and Settings",
+     "first_ask": 4,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Protocol Execution Parameters",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Membrane and Buffer Consumables",
+     "first_ask": 5,
+     "unanswered_after_first": false,
+     "later_asks": []
+    },
+    {
+     "category": "Reagent Storage Environment",
+     "first_ask": 6,
+     "unanswered_after_first": true,
+     "later_asks": [
+      8,
+      9,
+      10
+     ],
+     "re_asked": true
+    }
+   ]
+  }
+ },
+ "MEDIUM": {
+  "cell_culture__MEDIUM__s1": {
+   "categories": [
+    "The media",
+    "The serum",
+    "The incubator",
+    "The cryostock",
+    "The water",
+    "The equipment"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm+patch"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 0.8,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.75,
+    "composite": 0.31
+   }
+  },
+  "cell_culture__MEDIUM__s2": {
+   "categories": [
+    "the serum",
+    "the incubator",
+    "the medium",
+    "the water",
+    "the cryostock",
+    "the plasticware"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 0.6,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 1.0,
+    "uptake": 1.0,
+    "composite": 0.52
+   }
+  },
+  "pcr_lab__MEDIUM__s1": {
+   "categories": [
+    "the template",
+    "the polymerase",
+    "the reagents",
+    "the primers",
+    "the equipment",
+    "the water"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm+patch",
+    "llm"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 0.8,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 1.0,
+    "composite": 0.36
+   }
+  },
+  "pcr_lab__MEDIUM__s2": {
+   "categories": [
+    "the equipment",
+    "the reagents",
+    "the starting material",
+    "the protocol",
+    "storage conditions",
+    "contamination"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm+patch",
+    "llm",
+    "llm+patch",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 1.0,
+    "composite": 0.4
+   }
+  },
+  "western_blot__MEDIUM__s1": {
+   "categories": [
+    "the equipment",
+    "the reagents",
+    "the starting material",
+    "the protocol",
+    "storage conditions",
+    "contamination"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm+patch",
+    "llm",
+    "llm+patch",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 0.8,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 1.0,
+    "composite": 0.36
+   }
+  },
+  "western_blot__MEDIUM__s2": {
+   "categories": [
+    "the antibody",
+    "the protein sample",
+    "the wash buffers",
+    "the detection substrate",
+    "the blocking reagent",
+    "the imager"
+   ],
+   "asks_per_category": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "never_reasked": true,
+   "n_turns": 6,
+   "message_sources": [
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm",
+    "llm"
+   ],
+   "any_challenge_judged": false,
+   "subscales": {
+    "coverage": 0.8,
+    "specificity": 0.5,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.5,
+    "composite": 0.36
+   }
+  }
+ },
+ "WEAK": {
+  "cell_culture__WEAK__s1": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "general",
+     "C4": "general",
+     "C5": "general",
+     "C6": "general",
+     "C7": "general"
+    }
+   ],
+   "subscales": {
+    "coverage": 1.0,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.5,
+    "composite": 0.3
+   }
+  },
+  "cell_culture__WEAK__s2": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "general"
+    }
+   ],
+   "subscales": {
+    "coverage": 0.2,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.5,
+    "composite": 0.13999999999999999
+   }
+  },
+  "pcr_lab__WEAK__s1": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "general"
+    }
+   ],
+   "subscales": {
+    "coverage": 0.2,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 1.0,
+    "composite": 0.24
+   }
+  },
+  "pcr_lab__WEAK__s2": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "general"
+    }
+   ],
+   "subscales": {
+    "coverage": 0.2,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 1.0,
+    "composite": 0.24
+   }
+  },
+  "western_blot__WEAK__s1": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    }
+   ],
+   "subscales": {
+    "coverage": 0.0,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.0,
+    "composite": 0.0
+   }
+  },
+  "western_blot__WEAK__s2": {
+   "n_turns": 2,
+   "message_sources": [
+    "llm",
+    "template"
+   ],
+   "judge_levels": [
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    },
+    {
+     "C3": "none",
+     "C4": "none",
+     "C5": "none",
+     "C6": "none",
+     "C7": "none"
+    }
+   ],
+   "subscales": {
+    "coverage": 0.0,
+    "specificity": 0.0,
+    "refusal_recovery": 0.0,
+    "verification": 0.0,
+    "uptake": 0.0,
+    "composite": 0.0
+   }
+  }
+ },
+ "per_item_composite": {
+  "cell_culture": {
+   "MEDIUM": 0.415,
+   "STRONG": 1.0,
+   "WEAK": 0.22
+  },
+  "pcr_lab": {
+   "MEDIUM": 0.38,
+   "STRONG": 1.0,
+   "WEAK": 0.24
+  },
+  "western_blot": {
+   "MEDIUM": 0.36,
+   "STRONG": 1.0,
+   "WEAK": 0.0
+  }
+ },
+ "llm_calls": {
+  "sum_n_llm_calls_over_runs": 426,
+  "n_runs": 18,
+  "sum_wall_s_over_runs": 9202.7
+ }
+}

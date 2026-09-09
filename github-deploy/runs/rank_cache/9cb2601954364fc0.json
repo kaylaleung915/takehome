@@ -1,0 +1,63 @@
+{
+ "user_turns": [
+  {
+   "i": 0,
+   "asks": [
+    "T2"
+   ],
+   "level": "general",
+   "retry": false,
+   "verify": false
+  },
+  {
+   "i": 1,
+   "asks": [
+    "T1"
+   ],
+   "level": "specific",
+   "retry": false,
+   "verify": false
+  },
+  {
+   "i": 2,
+   "asks": [
+    "T1"
+   ],
+   "level": "specific",
+   "retry": true,
+   "verify": false
+  }
+ ],
+ "assistant_turns": [
+  {
+   "j": 0,
+   "nonanswer": false
+  },
+  {
+   "j": 1,
+   "nonanswer": false
+  },
+  {
+   "j": 2,
+   "nonanswer": true
+  }
+ ],
+ "provided": [
+  "T1",
+  "T2"
+ ],
+ "used": [
+  "T1",
+  "T2"
+ ],
+ "targets_used": {
+  "T1": "thermocycler/PCR machine condition or calibration",
+  "T2": "polymerase/enzyme/reagent kit age or expiry",
+  "T3": "template DNA/plasmid prep",
+  "T4": "cycling program/protocol settings",
+  "T5": "water/buffers/contamination/other lab failures"
+ },
+ "targets_given": true,
+ "note": "User never asked about T3, T4, or T5; assistant proactively volunteered some run-sheet/primer info unprompted.",
+ "_hash": "9cb2601954364fc0"
+}

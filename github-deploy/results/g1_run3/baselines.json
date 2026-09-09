@@ -1,0 +1,113 @@
+{
+ "cell_culture": {
+  "MEDIUM": {
+   "coverage": 0.7,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.5,
+   "uptake": 0.875,
+   "composite": 0.41500000000000004
+  },
+  "STRONG": {
+   "coverage": 1.0,
+   "specificity": 1.0,
+   "refusal_recovery": 1.0,
+   "verification": 1.0,
+   "uptake": 1.0,
+   "composite": 1.0
+  },
+  "WEAK": {
+   "coverage": 0.6,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 0.5,
+   "composite": 0.21999999999999997
+  }
+ },
+ "pcr_lab": {
+  "MEDIUM": {
+   "coverage": 0.9,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 1.0,
+   "composite": 0.38
+  },
+  "STRONG": {
+   "coverage": 1.0,
+   "specificity": 1.0,
+   "refusal_recovery": 1.0,
+   "verification": 1.0,
+   "uptake": 1.0,
+   "composite": 1.0
+  },
+  "WEAK": {
+   "coverage": 0.2,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 1.0,
+   "composite": 0.24
+  }
+ },
+ "western_blot": {
+  "MEDIUM": {
+   "coverage": 0.8,
+   "specificity": 0.25,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 0.75,
+   "composite": 0.36
+  },
+  "STRONG": {
+   "coverage": 1.0,
+   "specificity": 1.0,
+   "refusal_recovery": 1.0,
+   "verification": 1.0,
+   "uptake": 1.0,
+   "composite": 1.0
+  },
+  "WEAK": {
+   "coverage": 0.0,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 0.0,
+   "composite": 0.0
+  }
+ },
+ "_pooled": {
+  "WEAK": {
+   "coverage": 0.26666666666666666,
+   "specificity": 0.0,
+   "refusal_recovery": 0.0,
+   "verification": 0.0,
+   "uptake": 0.5,
+   "composite": 0.15333333333333332
+  },
+  "MEDIUM": {
+   "coverage": 0.8,
+   "specificity": 0.08333333333333333,
+   "refusal_recovery": 0.0,
+   "verification": 0.16666666666666666,
+   "uptake": 0.875,
+   "composite": 0.385
+  },
+  "STRONG": {
+   "coverage": 1.0,
+   "specificity": 1.0,
+   "refusal_recovery": 1.0,
+   "verification": 1.0,
+   "uptake": 1.0,
+   "composite": 1.0
+  }
+ },
+ "_gate_G1": {
+  "G1a_composite_ordering_every_item": true,
+  "G1b_subscale_monotone_pooled": true,
+  "G1_pass": true,
+  "n_runs": 18,
+  "expected_runs": 18
+ }
+}

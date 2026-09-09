@@ -1,0 +1,4 @@
+User: best format for photos?
+Assistant: It depends on the purpose. For sharing, JPEG is the usual choice; for editing or archiving, a lossless format such as TIFF or PNG keeps full quality. What will you use the photos for?
+User: archiving I guess
+Assistant: For archiving, TIFF (optionally with lossless LZW compression) is the most widely supported choice; PNG is also lossless and smaller. Keep at least two copies on different media.
